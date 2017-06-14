@@ -1,5 +1,14 @@
 package main
 
+import (
+	"fmt"
+
+	"./services"
+)
+
+var appName = "gorun"
+
 func main() {
-	println("Hello Server World!!!!!!!")
+	fmt.Printf("Starting %v\n", appName)
+	service.StartWebServer("8080")
 }
