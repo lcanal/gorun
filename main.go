@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 
-	"./services"
+	"./service"
 )
 
 var appName = "gorun"
